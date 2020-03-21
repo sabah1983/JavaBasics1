@@ -12,7 +12,6 @@ public class Garage {
 		
 		System.out.println(car1.make);
 		//accessing behavior/methods of car with car1
-		
 		car1.accelerate();
 		car1.makeNoise();
 		car1.drive();
@@ -42,6 +41,11 @@ public class Garage {
 		
 		//print I drive pink BMW
 		System.out.println("I drive "+car2.color+" "+car2.make);
+		
+		Car2 anotherCar=new Car2();
+		anotherCar.make="Toyota";
+		anotherCar.speed=90;
+		anotherCar.drive();
 		
 		// creat bike object
 		

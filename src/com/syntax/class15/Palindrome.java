@@ -22,6 +22,7 @@ public class Palindrome {
 		
     	Palindrome word1=new Palindrome();
     	 word1.palindrome("Madam");
+    	
 	}
 
 }

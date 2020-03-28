@@ -17,7 +17,7 @@ public class SplitFunction {
 		// print all element from array 1 by 1
 		// element type variableName:name of array
 		for(String arr:stringArray) {
-			System.out.print(arr+"|");
+			System.out.print(arr);
 		}
 		System.out.println();
 		// we want to print String word by word

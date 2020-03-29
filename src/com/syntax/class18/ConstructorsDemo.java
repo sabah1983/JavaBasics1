@@ -25,7 +25,7 @@ public class ConstructorsDemo {
 		System.out.println("I am constructor with 2 parameters:"+str+" & "+num);
 	}
 	
-	void ConstructorsDemo() {
+	void ConstructorsDemo() {//as soon as we add return type it becomes method
 		System.out.println("I don't know who am I");
 	}
 	

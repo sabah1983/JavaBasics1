@@ -4,10 +4,10 @@ public class AccessingMembersofClass {
 
 	public static void main(String[] args) {
 		Employee emp=new Employee();
-		emp.name="Faisal";
-		emp.lastName="Sakhi";
-		emp.salary=100000;
-		//emp.ssn=78969;CE field ssn is not visible 
+		emp.name="Faisal";//public member
+		emp.lastName="Sakhi";//protected member
+		emp.salary=100000;//default member
+		//emp.ssn=78969;CE field ssn is not visible/private member
 		
 		Employee.method1();
 		emp.method2();

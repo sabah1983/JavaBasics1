@@ -2,11 +2,11 @@ package com.syntax.class17;
 
 public class Employee {
 	
-	//create variabls to hold :name, last name, title, SSN, salary
+	//create variables to hold :name, last name, title, SSN, salary
 	public static String tital;
 	public String name;//Accessible everywhere to every one 
 	protected String lastName;//accessible within same package
-	double salary;//accessible within same package
+	double salary;//default accessible within same package
 	private long ssn;//accessible only within same class
 	
 	public static void method1() {

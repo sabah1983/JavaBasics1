@@ -31,6 +31,9 @@ public class USA {
 		
 		USA state1=new USA("Texas","Austin");
 		state1.displayInfo();
+		
+		state1=new USA("Georgia","Atlanta");
+		state1.displayInfo();
 	}
 
 }

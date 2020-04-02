@@ -2,14 +2,14 @@ package com.syntax.class01;
 
 public class VariableDeclaration {
 	public static void main(String[] args) {
-		// creat variable and store value
+		// create variable and store value
 		// 
 		boolean b=true;
-		//2 way : 1 step -->declare varible
-		//        2 step -->assing value
+		//2 way : 1 step -->declare variable
+		//        2 step -->assign value
 		int i;
 		i=1000;
-		//declare multiple variables and assing value later
+		//declare multiple variables and assign value later
 		char x,y,z;
 		x='A';
 		y='@';

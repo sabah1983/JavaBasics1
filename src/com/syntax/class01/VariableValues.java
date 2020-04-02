@@ -23,7 +23,7 @@ public class VariableValues {
 		double g;
 		g=45.19;
 		g=60.19;
-		//single charcter
+		//single character
 		char h;
 		h='@';
 		h='T';

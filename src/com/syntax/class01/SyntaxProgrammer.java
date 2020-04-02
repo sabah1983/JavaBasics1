@@ -7,7 +7,7 @@ public class SyntaxProgrammer {
 		System.out.println("I study at Syntax.");
 		System.out.println("I love Java!");
 		System.out.println("!!!");
-		// TODO Auto-generated method stub
+		
 
 	}
 

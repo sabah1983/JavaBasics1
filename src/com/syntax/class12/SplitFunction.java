@@ -33,7 +33,7 @@ public class SplitFunction {
 		today3=today3.trim();
 		System.out.println("String after trimming:"+today3);
 		
-		// today3=today3.split(); CE type missmatch --> split will give you back 
+		// today3=today3.split(); CE type miss match --> split will give you back 
 		// array of string
 	}
 

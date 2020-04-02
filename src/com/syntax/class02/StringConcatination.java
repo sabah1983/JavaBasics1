@@ -19,8 +19,8 @@ public class StringConcatination {
 		int width=5;
 		int height=8;
 		int area=width*height;
-		int perimiter=2*(width+height);
-		System.out.println(perimiter);
+		int perimeter=2*(width+height);
+		System.out.println(perimeter);
 		
 		
 		

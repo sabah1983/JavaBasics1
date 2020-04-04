@@ -6,11 +6,14 @@ public class CarTest {
 		
 		System.out.println("----------------");
 		
-		Mercedes merc=new Mercedes("AMG");
+		Mercedes merc=new Mercedes();
 		merc.display();
 		
-		Mercedes merc1=new Mercedes("NO AMG");
+		Mercedes merc1=new Mercedes("Mercedes", "M", "NO AMG");
 		merc1.display();
+		
+		Mercedes merc2=new Mercedes("Mercedes", "s", "AMG");
+		merc2.display();
 	}
 
 }

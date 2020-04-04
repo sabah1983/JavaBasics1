@@ -1,4 +1,4 @@
-package com.syntax.class20;
+ package com.syntax.class20;
 
 public class Car {
 	
@@ -22,8 +22,8 @@ class Mercedes extends Car{
 		System.out.println("I am child class constructor");
 	}
 	
-	public Mercedes(String sportModel) {
-		super("Mercedes","S");
+	public Mercedes(String make, String model, String sportModel) {
+		super(make, model);
 		this.sportModel=sportModel;
 		
 	}

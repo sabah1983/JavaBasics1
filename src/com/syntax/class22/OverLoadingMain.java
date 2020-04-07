@@ -2,12 +2,14 @@ package com.syntax.class22;
 
 public class OverLoadingMain {
 	
+	static String str="Syntax";
+	
 	public static void main(int [] args) {
 		System.out.println("Method with int array argument.");
 	}
 	
 	public static void main(String args) {
-		System.out.println("Method with String argument.");
+		System.out.println("Method with String argument "+args);
 	}
 	
 	public static void main(String args, String args1) {
@@ -25,7 +27,8 @@ public class OverLoadingMain {
 	public static void main(String[] args) {//Java always looks for this main method with this signature
 		System.out.println("Method with String array argument.");
 		OverLoadingMain.main("str");
-		main("str");
+		OverLoadingMain.main("str");
+		main(str);
 		main("hello","hi");
 		//int[] arr=new int[2];
 		main(new int[2]);

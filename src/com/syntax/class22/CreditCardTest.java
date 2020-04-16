@@ -14,7 +14,7 @@ public class CreditCardTest {
 		
 		AX ax=new AX(350);
 		interest=ax.getinterest();
-		System.out.println(interest); 
+		System.out.println(interest);
 	}
 
 }

@@ -8,8 +8,8 @@ public class Phone {
 	String color;
 	String model;
 	
-	
 	void dial() {
+		
 		System.out.println(brand+" can dial");
 	}
 	void text() {
@@ -18,6 +18,9 @@ public class Phone {
 	void pics() {
 		System.out.println(brand+" can take a picture");
 	}
+
+	
+	
 
 	
 		

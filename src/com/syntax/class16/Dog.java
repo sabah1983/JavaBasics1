@@ -11,7 +11,7 @@ public class Dog {
 		static int tail=1;
 		static int eyes=2;
 		
-		void displayDog() {
+		 void displayDog() {
 			System.out.println("Dog name is "+name +" and it "+size+" dog and age is "+age);
 			System.out.println("Dogs breed is "+breed+ " and it has "+paws+" paws and "+tail+" tail");
 		}

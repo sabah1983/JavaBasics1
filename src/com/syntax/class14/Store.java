@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Store {
 	
 	public static void main(String[] args) {
-		// creat object
+		// create object
 		//Instantiate phone class
 		//new Phone(); create an object of phone
 		//iphone variable/reference variable

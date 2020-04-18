@@ -49,7 +49,7 @@ public class Garage {
 		
 		// creat bike object
 		
-		//new Bike();-->can't creat object
+		//new Bike();-->can't create object
 		//if we don't have class
 
 	}

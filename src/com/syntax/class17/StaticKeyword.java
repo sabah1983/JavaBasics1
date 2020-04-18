@@ -19,9 +19,9 @@ public class StaticKeyword {
 		System.out.println("WE build phone with "+memory+" GB memory in "+color+" color");
 	}
 	//STATIC METHOD CANT'T ACCESS NON-STATIC MEMBERS OF THE CLASS
-	//static void displaySpecifications1() {
-	//	System.out.println("WE build phone with "+memory+" GB memory in "+color+" color");
-	//}
+//	static void displaySpecifications1() {
+//		System.out.println("WE build phone with "+memory+" GB memory in "+color+" color");
+//	}
 	
 	public static void main(String[] args) {
 		//accessing static variables in static way

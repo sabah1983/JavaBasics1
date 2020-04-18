@@ -1,6 +1,7 @@
 package com.syntax.class16;
 
 public class LocalVariables {
+	String name;
 	
 void nameInside() {
 		
@@ -20,7 +21,6 @@ void nameInside() {
 		
 		LocalVariables obj=new LocalVariables();
 		obj.nameInside();
-		
 		boolean flag=true;
 		if(flag) {
 			String answer="Yes";

@@ -5,6 +5,10 @@ public class CarTest {
 	public static void main(String[] args) {
 		
 		Car bmw=new BMW("BMW");
+//		bmw.display();
+//		bmw.start();
+//		bmw.navigate();CE The method navigate() 
+//		is undefined for the type Car
 		Car tesla=new Tesla("Tesla");
 		Car merc=new Mercedes("Mercedes");
 		Car honda=new Honda("Honda");
@@ -18,6 +22,15 @@ public class CarTest {
 			c.display();
 			System.out.println("-------------");
 			
+		}
+		
+		System.out.println("-------------------------");
+		
+		for(int i=0; i>cars.length;i++) {
+			cars[i].start();
+			cars[i].display();
+
+
 		}
 	}
 

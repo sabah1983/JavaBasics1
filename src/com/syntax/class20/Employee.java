@@ -29,6 +29,7 @@ class ProductOwner extends ScrumTeam{
 		System.out.println("Any");
 	}
 }
+
 class ScrumMaster extends ScrumTeam{
 	void navigateTeam() {
 		

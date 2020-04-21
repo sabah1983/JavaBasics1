@@ -5,7 +5,7 @@ public class USA {
 	String state, stateCapital;
 	
 	public USA(String state, String stateCapital) {
-		this.state=state;
+	    this.state=state;
 		this.stateCapital=stateCapital;
 	}
 	

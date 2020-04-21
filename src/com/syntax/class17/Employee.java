@@ -23,7 +23,7 @@ public class Employee {
     }
     
     public static void main(String[] args) {
-		  Employee emp=new Employee();
+		 Employee emp=new Employee();
 		  emp.name="John";
 		  emp.lastName="Smith";
 		  emp.salary=90000;

@@ -34,7 +34,7 @@ class Bus extends Vehicle{
 	Bus(String color) {
 		super(color);
 	}
-	
+
 	@Override
 	public void brake() {
 		System.out.println("bus should barke at red light camera");
@@ -47,6 +47,7 @@ class Bus extends Vehicle{
 }
 
 abstract class Car extends Vehicle {
+	
 	String carType;
 
 	Car(String color, String carType) {

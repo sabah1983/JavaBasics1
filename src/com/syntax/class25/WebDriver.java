@@ -57,7 +57,7 @@ class ChromeDriver implements WebDriver {
 
 	@Override
 	public void takePicture() {
-		System.out.println("In crome we can take picture");
+		System.out.println("In chrome we can take picture");
 	}
 }
 

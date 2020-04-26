@@ -39,7 +39,7 @@ class BOA extends Finance implements Bank, CreditUnion  {
 
 	@Override
 	public void withdraw() {
-		System.out.println("You can withdraw you money at BOA");
+		System.out.println("You can withdraw your  money at BOA");
 	}
 
 	@Override
